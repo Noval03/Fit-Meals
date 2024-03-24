@@ -56,7 +56,7 @@ with tab_image:
     st.subheader('Nutrition Needs')
     gizi_target = st.session_state.get('gizi_target')
     col1, col2, col3, col4= st.columns(4)
-    col1.metric("Calories (g)", gizi_target[0], delta_calories)
+    col1.metric("Calories (Kcal)", gizi_target[0], delta_calories)
     col2.metric("Proteins (g)", gizi_target[1], delta_proteins)
     col3.metric("Fat (g)", gizi_target[2], delta_fat)
     col4.metric("Carbohydrate (g)", gizi_target[3], delta_carbohydrate)
