@@ -95,7 +95,7 @@ with tab_image:
             plt.setp(autotexts, size=16, weight="bold", color="black") 
             ax.set_title(label, fontsize=16)
             
-        fig.legend(['Nutrisi', 'Remaining'], loc='lower center', ncol=2, bbox_to_anchor=(0.5, -0.05), fontsize=14)
+        fig.legend(['Nutrition', 'Goals'], loc='lower center', ncol=2, bbox_to_anchor=(0.5, -0.05), fontsize=14)
 
         plt.tight_layout()
         st.pyplot(fig)
